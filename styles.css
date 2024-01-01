@@ -1,0 +1,387 @@
+/* styles.css */
+.head_bar {
+    background-color: rgb(181, 188, 209);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.head_bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.head_bar li {
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.head_bar a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.head_bar a:hover {
+    color: burlywood;
+}
+
+/* Additional styles for specific pages */
+.home_page,
+.about_page,
+.resources_page,
+.events_page,
+.applynow_page,
+.catalog_page,
+.contact_page,
+.blog_post,
+.library_page,
+.research_page {
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600px;
+    font-style: bold;
+}
+
+.comsciencelogo {
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+/* Modified styles for .imagediv and .navigationbar_alignright */
+.imagediv{
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    
+    flex: 1; /* Distribute equal space within .head_bar */
+}
+.navigationbar_alignright {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex: 3; /* Distribute equal space within .head_bar */
+    margin-left: auto; /* Push contents to the far right */
+    padding-left: 350px;
+    margin-left: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px; /* Two columns with a ratio of 2:1 */
+    grid-template-rows: 70px 200px; /* Two rows with a ratio of 1:2 */
+    gap: 30px; /* Gap between columns */
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container and add some margin */
+    align-self: center;
+    margin-left: 250px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 2;
+}
+
+.Bootstrapcamp {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background-color: #949393;
+}
+
+.Undergradute {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background-color: #949393;
+}
+
+.MPhil_MSc {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background-color: #949393;
+}
+
+.PHD {
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 35px;
+    background-color: #949393;
+    
+}
+
+.Bootstrap_row,
+.Undergraduate_row,
+.MPhil_Msc_row,
+.PHD_row {
+    background-color: #424242;
+    padding-top: -30px;
+    align-content: center;
+}
+
+#read_more {
+    color: rgb(246, 199, 137);
+    margin-top: 20px;
+}
+
+row_heading a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color:#fff;
+    padding-top: -10px;
+    text-decoration: none;
+    color: #fff;
+
+} 
+
+row heading a:hover {
+color: burlywood;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: -10px;
+    margin-left: -15px;
+    margin-right: 10px;
+}
+
+.phd_text {
+    margin-top: 28px;
+}
+
+@media (max-width: 750px) {
+    .element {
+        width: 350px;
+    }
+}
+
+@media (min-width: 750.02px) and (max-width:1000px) {
+    .element {
+        width: 450px;
+    }
+}
+
+@media (min-width:100.02px) {
+    .element {
+        width: 600px;
+    }
+}
+video {
+    align-self: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.overlay.overlay-bg {
+    position: relative;
+    height: 67vh; /* Adjust the height as needed */
+    width: 100%;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+}
+
+#myVideo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    margin-top: -160px;
+}
+
+.header {
+    background-color: #535354;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 85%; 
+    margin: 0 auto; 
+}
+
+
+.header-title {
+    margin: 0;
+    font-size: 2em;
+}
+
+.cs-wonderland {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.cs-section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.cs-section-title {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+}
+
+.cs-section-description {
+    padding: 20px;
+    margin: 0;
+}
+
+
+
+
+.Techsphere{
+    background-image: linear-gradient(rgba(11, 19, 54, 0.7),rgba(4,9,30,0.7)), url('images/girlsgirls.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 170vh;
+    margin-top: -70px;
+    margin-bottom: 50px;
+}
+.Overview {
+    width:1000px;
+    align-content:justify;
+}
+
+.main_overview {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* This will center the div horizontally */
+    margin-top: -100px;
+    background-color: #f8f6f6;
+    margin-bottom: 50px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-left: -65px;
+    color: #D4AF35;
+    font-family:"Cinzel", Sans-serif;
+}
+
+.overview_text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify; /* Justify the text */
+    line-height: 2.0; /* Set the line spacing */
+    color:#424242;
+    margin-left: 15px;
+}
+
+
+
+
+
+.world-class-footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/footer_background.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 40vh;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+    text-align: center; /* Center the links */
+    margin-left: 80px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#contact-info-sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: -40px; /* Adjust the gap according to your preference */
+    text-align: center;
+    width: 1000px;
+    margin-left: 270px;
+}
+
+.contact-info {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.contact-info a {
+    color: #0066cc;
+}
+
+
+.newsletter {
+    margin-bottom: 20px;
+    margin-left: 957px;
+}
+
+.newsletter h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
